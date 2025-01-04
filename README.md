@@ -3,8 +3,9 @@
 
   
 Overview
-This project implements a CPU emulator for the Z80 8-bit processor. The emulator interprets and executes a subset of Z80 instructions, 
-simulating the CPU's behavior and managing its state, including registers, flags, memory, and program counter (PC). 
+This project implements a CPU emulator for the Z80 8-bit processor. The emulator interprets and executes 
+a subset of Z80 instructions, simulating the CPU's behavior and managing its state, including registers, 
+flags, memory, and program counter (PC). 
 The emulator is built in C++ with modularity and expandability in mind.
 
 
@@ -17,7 +18,8 @@ z80.cpp
 Implements the functionality of the CPU registers and utility functions for manipulating the CPU's state.
 
 z80_execute.cpp
-Contains the opcode implementation for Z80 instructions, including ALU operations, branching, memory interactions, and bitwise operations.
+Contains the opcode implementation for Z80 instructions, including ALU operations, branching, memory 
+interactions, and bitwise operations.
 
 project-main.c
 A simplified testing framework for loading programs and running them on the emulator.
@@ -29,7 +31,8 @@ Instruction Handling
 Supports a variety of instructions including data transfer, arithmetic, logical, and branching.
   
 Flag Updates
-Handles updates to CPU flags (e.g., Zero, Sign, Carry, Parity/Overflow, Half-Carry, Subtract) based on operations performed.
+Handles updates to CPU flags (e.g., Zero, Sign, Carry, Parity/Overflow, Half-Carry, Subtract) based on 
+operations performed.
 
 Memory Management
 Implements reading and writing to memory locations through helper functions (z80_mem_read, z80_mem_write).
