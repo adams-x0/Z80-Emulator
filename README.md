@@ -3,7 +3,9 @@
 
   
 Overview
-This project implements a CPU emulator for the Z80 8-bit processor. The emulator interprets and executes a subset of Z80 instructions, simulating the CPU's behavior and managing its state, including registers, flags, memory, and program counter (PC). The emulator is built in C++ with modularity and expandability in mind.
+This project implements a CPU emulator for the Z80 8-bit processor. The emulator interprets and executes a subset of Z80 instructions, 
+simulating the CPU's behavior and managing its state, including registers, flags, memory, and program counter (PC). 
+The emulator is built in C++ with modularity and expandability in mind.
 
 
 
